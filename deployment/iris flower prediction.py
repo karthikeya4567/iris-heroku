@@ -9,7 +9,7 @@ def load_data():
     clf_svm = joblib.load('model/iris_svm_model.sav')
     std_scalar_obj = joblib.load('model/std_scalar_obj.sav')
     types_iris = pd.DataFrame({'Class Labels':['Setosa','Versicolor','Virginica']})
-    return (clf_svm, std_scalar_obj, types_iris)
+    return (clf_svm, std_scalar_obj, types_iris)     
 
 
 clf_svm, std_scalar_obj, types_iris = load_data()
