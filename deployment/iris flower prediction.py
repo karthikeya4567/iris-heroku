@@ -54,8 +54,3 @@ st.subheader('Model Prediction')
 st.write(types_iris.iloc[y_pred])
 
 
-st.write('''I made this webapp using streamlit library. The Model I used was SVM. Github link for more details 
-https://github.com/ikaushikpal/iris-heroku
-
-Thanks For Checking 😀
-''')
